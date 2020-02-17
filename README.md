@@ -9,7 +9,7 @@ If the script donot runs :-
 
 If the script runs :-
 
-* feed the data in student.xlsx as per schema. (an example file is provided in the attachment. Remember to keep the shema as per the example file.)
+* feed the data in student.xlsx as per schema. (an example file is provided in the attachment. Remember to keep the schema as per the example file.)
 * Arrange all the roll_numbers in assending order (Add missing roll_numbers and put their name as null).
 * the roll_number is assumed to be alphanumeric so enter the fixed alpha part in the initial parameter and last expected numerical value as first parameter.  i.e; if roll_numers are like 19J010, 19J011,......,19J099. then the fixed part is 19J0 and the changing part is 10,11,......,99. So enter  99 as the first parameter so the program runs until it has fetched the 19J099  roll_number.
 * Set the "initialschno" value to the (starting roll_number - 1) i.e; if roll (the numeric part of the roll_number ) starts from 3 then put 2 in "initialschno".
